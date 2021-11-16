@@ -1,0 +1,19 @@
+import java.util.*;
+
+class Atm{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		if(a%100==0){
+				if(a>20000){
+					System.out.println("Please enter lesser amount");
+				}
+				else if(a<500){
+
+				}
+		}
+		else{
+			System.out.println("Please enter greater amount");
+		}
+	}
+}
